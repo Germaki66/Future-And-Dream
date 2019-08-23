@@ -41,12 +41,11 @@ import { Component, Provide, Prop, Vue } from "vue-property-decorator";
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
 
-  @Provide() name: string = '2323'
+  @Provide() name: string = "2323";
 
   get names(): string {
-    return '232223232'
+    return "232223232";
   }
-
 }
 </script>
 
